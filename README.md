@@ -1,5 +1,5 @@
 # Timbre-Informed DDSP Violin
-The corresponding master thesis is **Modelling Timbre for Neural Violin Synthesis**, which will be published on the [Zenodo](https://drive.google.com/file/d/1AbM6HxsajVcPC9oJLljAEEVqEldZwyKp/view?usp=sharing) of Music Technology Group.
+The corresponding master thesis is **Modelling Timbre for Neural Violin Synthesis**, which will be published in the [Zenodo](https://zenodo.org/communities/smc-master/records?q=&l=list&p=1&s=10&sort=newest) of Music Technology Group.
 
 ## Audio demos
 [🎧 Live audio demos](https://kenzhuti.github.io/audio-demo/)
@@ -8,7 +8,7 @@ The corresponding master thesis is **Modelling Timbre for Neural Violin Synthesi
 
 ### Violin Etudes
 
-1. Download the Violin Etudes dataset with hmag and f0 labelling from [here](https://datashare.is.ed.ac.uk/handle/10283/3443).
+1. Download the Violin Etudes dataset with hmag and f0 labelling from [here](https://drive.google.com/file/d/1AbM6HxsajVcPC9oJLljAEEVqEldZwyKp/view?usp=sharing).
 2. Extract the dataset to a directory, e.g., `data/violin_etudes_with_labelling`.
 3. Run the following command to resample the dataset to 24 kHz wave files. The resampled files will be saved in the target directory with the same structure as the original files.
 ```bash
