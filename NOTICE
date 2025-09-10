@@ -1,0 +1,23 @@
+This repository ("Timbre-Informed DDSP Violin") contains original work and modifications by:
+
+  QIN LIU (c) 2025
+  Music Technology Group (MTG), Universitat Pompeu Fabra (UPF)
+
+Context:
+
+  Timbre-Informed DDSP Violin is developed as part of the master's thesis
+  "Modelling Timbre for Neural Violin Synthesis"
+  at the Music Technology Group, Universitat Pompeu Fabra.
+
+Upstream provenance:
+
+  This work builds upon and includes portions of code from the GOLF projects and DDSP-based synthesis,
+  notably:
+    - "Singing Voice Synthesis Using Differentiable LPC and Glottal-Flow-Inspired Wavetables (GOLF)"
+      (c) 2023 Chin-Yun Yu and collaborators
+
+
+License:
+
+  Unless otherwise noted, the code in this repository is licensed under the MIT License.
+  See the LICENSE file for full terms. This NOTICE file is for attribution and provenance only.

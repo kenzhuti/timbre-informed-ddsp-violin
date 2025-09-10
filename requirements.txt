@@ -1,0 +1,17 @@
+pandas
+torch>=2.0.0
+torchaudio>=2.0.0
+lightning[pytorch-extra]
+tqdm
+matplotlib
+kazane
+torch_fftconv
+pyworld
+pysptk
+diffsptk
+pyloudnorm
+soxr
+soundfile
+fadtk
+pesq
+torchlpc
