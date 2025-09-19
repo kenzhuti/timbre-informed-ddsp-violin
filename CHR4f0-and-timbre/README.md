@@ -1,4 +1,4 @@
-# constrained-harmonic-resynthesis4timbre-clustering
+# constrained-harmonic-resynthesis4f0-and-timbre
 This project builds on Constrained harmonic resynthesis model which is developed along with the Violin Etudes paper.
 
 Constrained harmonic resynthesis model that can be used in labeling single-instrument, monophonic music performance datasets.
