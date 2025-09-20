@@ -8,7 +8,7 @@ The corresponding master thesis is **Modelling Timbre for Neural Violin Synthesi
 
 ### Violin Etudes
 
-1. Download the Violin Etudes dataset with hmag and f0 labelling from [here](https://drive.google.com/file/d/1AbM6HxsajVcPC9oJLljAEEVqEldZwyKp/view?usp=sharing).
+1. Download the Violin Etudes dataset with hmag and F0 labelling from [here](https://drive.google.com/file/d/1AbM6HxsajVcPC9oJLljAEEVqEldZwyKp/view?usp=sharing).
 2. Extract the dataset to a directory, e.g., `data/violin_etudes_with_labelling`.
 3. Run the following command to resample the dataset to 24 kHz wave files. The resampled files will be saved in the target directory with the same structure as the original files.
 ```bash
@@ -17,13 +17,13 @@ python scripts/resample_dir.py data/violin_etudes_raw data/violin_etudes --suffi
 
 ### $f_0$ and hmag (harmonic magnitude) Extraction
 1. SWIPE Method
-<br>The f0s will be saved as `.pv` file in the same directory with the original files using 5 ms hop size.
+<br>The F0s will be saved as `.pv` file in the same directory with the original files using 5 ms hop size.
 ```bash
 python scripts/wav2f0.py data/violin_etudes_with_labelling
 ```
 
 2. CHR Method
-<br> Run `constrained_harmonic_resynthesis.py` and `timbre_clustering.ipynb` in the directory `constrained-harmonic-resynthesis4timbre-clustering` for the extraction of f0 and hmag labels. The f0s and hmags will be saved as `.tb.csv` file using sample-rate-wise interpolation for timestamps.
+<br> Run `constrained_harmonic_resynthesis.py` and `timbre_clustering.ipynb` in the directory `constrained-harmonic-resynthesis4timbre-clustering` for the extraction of F0 and hmag labels. The F0s and hmags will be saved as `.tb.csv` file using sample-rate-wise interpolation for timestamps.
 
 ## Training
 
